@@ -2,3 +2,28 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
+.banner{
+    background-image: url('../images/Banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    height: 600px;
+}
+.banner-text h3{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 177px;
+}
+.banner-text h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 75px; 
+}
+
