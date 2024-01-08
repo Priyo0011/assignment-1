@@ -305,9 +305,61 @@ body{
     display: flex;
     gap: 24px;
     padding-top: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-.gift-container-tow{
+.gift-container-two{
     display: flex;
     gap: 24px;
     padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.img-one{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-one:hover{
+    transform: scale(1.1);
+}
+.img-two{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-two:hover{
+    transform: scale(1.1);
+}
+.img-three{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-three:hover{
+    transform: scale(1.1);
+}
+.img-four{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-four:hover{
+    transform: scale(1.1);
+}
+.img-five{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-five:hover{
+    transform: scale(1.1);
+}
+.img-six{
+    width: 424px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img-six:hover{
+    transform: scale(1.1);
 }
