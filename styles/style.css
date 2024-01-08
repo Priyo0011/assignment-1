@@ -55,10 +55,15 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+.offer-des *{
+    padding: 6px;
+    margin: 6px;
+}
 .new-year{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 
@@ -136,4 +141,76 @@ body{
     border-radius: 8px;
     background: #F00;
     border: none;
+}
+.text-pr-color{
+    color: #F00;
+}
+
+/* coming soon offer */
+
+.coming-soon-offer{
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    gap: 50px;
+
+}
+.coming-soon-offer h3{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.coming-soon-offer h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.coming-soon-offer p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.img-radius{
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 364.844px;
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
+}
+#year{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#year-text{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.coming-soon-offer *{
+    margin: 8px;
+    padding: 8px;
 }
