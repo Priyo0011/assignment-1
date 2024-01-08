@@ -214,3 +214,100 @@ body{
     margin: 8px;
     padding: 8px;
 }
+
+/* sale off section */
+
+.sale-off{
+    text-align: center;
+    margin-top: 120px;
+}
+.sale-off *{
+    margin: 0;
+    padding: 0;
+}
+.sale-off h4{
+    color: #070211;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sale-off h1{
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 30px;
+}
+.holiday-color{
+    color: #F00;
+}
+.sale-off p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    width: 1068px;
+    margin: 0 auto;
+    margin-top: 30px;
+    gap: 30px;
+}
+.holiday-off-banner{
+    height: 600px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* best gift  */
+
+.best-gift *{
+    margin: 0;
+    padding: 0;
+}
+.best-gift{
+    width: 1320px;
+    margin: 0 auto;
+}
+.best-gift h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.best-gift h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 16px;
+}
+.best-gift p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    padding-top: 22px;
+}
+.gift-container-one{
+    display: flex;
+    gap: 24px;
+    padding-top: 48px;
+}
+.gift-container-tow{
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+}
