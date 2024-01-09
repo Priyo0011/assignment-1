@@ -4,8 +4,9 @@ body{
 }
 .banner-container{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Banner.png');
+    width: 100%;
+    max-width: 1320px;
     height: 600px;
-    width: 1320px;
     border-radius: 16px;
     margin: 0 auto;
 }
@@ -70,7 +71,8 @@ body{
 .container{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     height: 600px;
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     border-radius: 16px;
     margin: 0 auto;
 }
@@ -114,7 +116,8 @@ body{
 
 .bag-color{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     height: 482px;
     flex-shrink: 0;
     margin: 150px auto;
@@ -150,7 +153,8 @@ body{
 
 .coming-soon-offer{
     height: 600px;
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,15 +187,17 @@ body{
     font-weight: 400;
     line-height: 32px;
 }
-.img-radius{
-    border-radius: 463px;
+.img-radius-new{
+    border-radius: 430px;
     border: 15px solid #F00;
-    width: 463px;
-    height: 463px;
+    width: 430px;
+    height: 430px;
     flex-shrink: 0;
-    border-radius: 364.844px;
-    width: 364.844px;
-    height: 364.844px;
+}
+.img-radius{
+    border-radius: 365px;
+    width: 365px;
+    height: 365px;
     flex-shrink: 0;
 }
 #year{
@@ -271,7 +277,8 @@ body{
     padding: 0;
 }
 .best-gift{
-    width: 1320px;
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
 }
 .best-gift h4{
@@ -305,15 +312,12 @@ body{
     display: flex;
     gap: 24px;
     padding-top: 48px;
-    padding-left: 24px;
-    padding-right: 24px;
+
 }
 .gift-container-two{
     display: flex;
     gap: 24px;
     padding-top: 24px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 .img-one{
     width: 424px;
@@ -438,3 +442,55 @@ body{
     font-weight: 600;
     border: none;
 }
+
+/* footer section */
+
+.footer-color{
+    background: #070211;
+    width: 100%;
+    max-width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+.footer-text *{
+    margin: 0;
+    padding: 0;
+}
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 160px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer-icon{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.icon-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-text-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}   
