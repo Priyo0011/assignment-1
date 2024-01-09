@@ -264,11 +264,29 @@ body{
     gap: 30px;
 }
 .holiday-off-banner{
-    height: 600px;
+    height: 750px;
     width: 1320px;
     margin: 0 auto;
     margin-top: 100px;
 }
+.holiday-img-one{
+    position: relative;
+    left: 890px;
+    top: 4px;
+}
+.holiday-img-two{
+    position: relative;
+    left: 300px;
+    bottom: 65px;
+}
+.holiday-img-three{
+    position: relative;
+}
+.holiday-img-four{
+    position: relative;
+    bottom: 670px;
+}
+
 
 /* best gift  */
 
